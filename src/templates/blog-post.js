@@ -14,7 +14,7 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
-  auteur
+  auteur,
 }) => {
   const PostContent = contentComponent || Content;
 
@@ -55,7 +55,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  auteur: PropTypes.string
+  auteur: PropTypes.string,
 };
 
 const BlogPost = ({ data }) => {

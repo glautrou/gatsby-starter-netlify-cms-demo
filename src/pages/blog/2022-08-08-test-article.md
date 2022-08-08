@@ -5,6 +5,7 @@ date: 2022-08-08T13:44:10.770Z
 description: Test d'un article de blog Gatsby avec Netlify CMS
 featuredpost: true
 featuredimage: /img/blog-index.jpg
+auteur: Gilles Lautrou
 ---
 # Tenuere spatiumque cecidit
 

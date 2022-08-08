@@ -102,7 +102,6 @@ export const pageQuery = graphql`
         title
         description
         tags
-        auteur
       }
     }
   }

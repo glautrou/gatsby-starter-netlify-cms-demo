@@ -42,7 +42,7 @@ class BlogRollTemplate extends React.Component {
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; {post.frontmatter.auteur}</span>
+                    <span> &bull;</span>
                     <span className="subtitle is-size-5 is-block">
                       {post.frontmatter.date}
                     </span>
@@ -91,7 +91,6 @@ export default function BlogRoll() {
                 }
                 frontmatter {
                   title
-                  auteur
                   templateKey
                   date(formatString: "MMMM DD, YYYY")
                   featuredpost

@@ -10,4 +10,4 @@
   for = "/*"
   [headers.values]
     Content-Security-Policy = "default-src 'self';"
-    Permissions-Policy = "microphone=(), geolocation=*"
+    Permissions-Policy = "microphone=(),geolocation=*"

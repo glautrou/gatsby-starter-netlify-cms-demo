@@ -9,5 +9,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'unsafe-inline'; script-src 'unsafe-inline';  script-src-elem 'self'; img-src 'self' data:; connect-src *;"
     Permissions-Policy = "accelerometer=(), autoplay=(), ambient-light-sensor=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(), usb=()"
